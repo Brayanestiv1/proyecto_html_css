@@ -1,0 +1,118 @@
+@font-face{
+    font-family: "Gulfs Display";
+    src: url(../font/GulfsDisplay-Normal.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* menos de 768px */
+
+
+    *{
+   
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    h1 {
+        font-family: "Gulfs Display", sans-serif;
+        font-size: 6em;
+        color: #065bf9;
+        line-height: 1;
+    }
+
+    .global {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+
+    /*------------------------------------------ seccion inicio---------------------------------------------*/
+    .sesion-inicio {
+        position: relative;
+        outline: 1px solid red;
+        width: 100%;
+        height: 69.03vw; /* Ajustado a vh */
+    }
+    
+    .caja1 {
+        background-color: #ffb4cc;
+        marginwidth: 100vw;
+        height: 100vw;
+
+    } 
+
+    /* seccion nosotros */
+
+    .seccion-nosotros {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        background-color: #fcf46c;
+        outline: 1px solid blue;
+        height: 95.37vh; /* Ajustado a vh */
+        z-index: 0;
+}
+
+
+/* seccion galeria */
+
+.seccion-galeria {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    outline: 1px solid green;
+    height: 60.19vh; /* Ajustado a vh */
+    z-index: 0;
+}
+
+.caja1 {
+    position: absolute;
+    outline: 1px solid black;
+    background-color: #ffb4cc;
+    height: 43.52vh; /* Ajustado a vh */
+    width: 100%;
+    z-index: 1;
+}
+
+.caja2 {
+    background-color: #fcf46c;
+    height: 69.03vh; /* Ajustado a vh */
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+
+/* seccion precios */
+
+.seccion-precios {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    outline: 1px solid green;
+    height: 60.19vh; /* Ajustado a vh */
+    z-index: 0;
+}
+
+
+/* seccion-contectos */
+
+.seccion-contectos {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    outline: 1px solid green;
+    height: 60.19vh; /* Ajustado a vh */
+    z-index: 0;
+}
+
+
+
+
+@media (max-width: 768px) {}

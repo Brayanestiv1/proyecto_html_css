@@ -1,0 +1,747 @@
+
+@font-face{
+    font-family: "Gulfs Display";
+    src: url(../font/GulfsDisplay-Normal.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+body {
+    display:flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    position: relative;
+}
+
+.global {
+    position: relative;
+    width: 100%;
+    height:auto;
+    margin: 0;
+    padding: 0;
+    
+}
+
+[class="caja"] {
+    position: absolute;
+    
+}
+
+.sesion-inicio {
+    position: relative;
+    outline: 1px solid red;
+    width: 100%;
+    height: 100vh;
+}
+
+.caja1 {
+    position: absolute;
+    outline: 1px solid black;
+    background-color: rgb(236, 138, 203);
+    height: 67vw;
+    width: 100vw;
+    top: -4vw;
+    z-index: 1;
+}
+.contenedor-img2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.circulo {
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 307px;
+    margin-bottom: 10vw;
+    width: 75px;
+    z-index: 6;
+    position: relative;
+}
+
+
+
+.img2 {
+    width: 42vw;
+    height: 73vw;
+    border-radius: 27vw;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 2;
+}
+
+.img10 {
+    display: none;
+}
+
+.img11 {
+    display: none;
+}
+.texto{
+    width: 100%;
+    height: 30%;
+    top:5px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.estrella {
+    margin-left: 17px;
+    margin-top: 348px;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    z-index: 3;
+    
+}
+
+.estrella1 {
+    margin-left: 344px;
+    margin-top: 385px;
+    width: 23px;
+    height: 24px;
+    position: absolute;
+    z-index: 5;
+    
+}
+
+.estrella2 {
+    margin-left: 33px;
+    margin-top: 231px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 6;
+    
+}
+
+.logo {
+    margin-left: 25px;
+    margin-top: 598px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 7;
+}
+        
+
+
+.linea {
+    margin-left: 310px;
+    margin-top: 321px;
+    width: 67px;
+    height: 30px;
+    position: absolute;
+    z-index: 8;
+        
+}
+.caja2 {
+    
+    background-color: rgb(231, 255, 98);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.text {
+    font-family: "Gulfs Display", sans-serif;
+    position: absolute;
+    z-index: 9;
+    color: blue;
+    font-weight: 500;
+    margin-top: 3%;
+    font-size: 3vw;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    line-height: 1;
+
+} 
+
+.text1 {
+    font-family: "Gulfs Display", sans-serif;
+    position: absolute;
+    z-index: 9;
+    color: blue;
+    font-weight: 500;
+    margin-top: 6%;
+    font-size: 3vw;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    line-height: 1.1;
+
+} 
+
+.text2 {
+    font-family: "Gulfs Display", sans-serif;
+    position: absolute;
+    z-index: 9;
+    color: blue;
+    font-weight: 500;
+    margin-top: 9%;
+    font-size: 3vw;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    line-height: 1.1;
+
+} 
+
+
+
+
+
+/*----------------------------- seccion nosotros ----------------------*/
+
+.seccion-nosotros {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(231, 255, 98);
+    outline: 1px solid blue;
+    height: 1030px;
+    z-index: 0;
+}
+
+.lunas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.medialuna1 {
+    margin-left: 290px;
+    position: absolute;
+}
+
+.text3 {
+    font-family: "Gulfs Display", sans-serif;
+    color: rgb(231, 255, 98);
+    -webkit-text-stroke: 3px #0061ff;
+    position: absolute;
+    z-index: 9;
+    margin-top: 82px;
+    margin-left: 50px;
+    font-size: 80px;
+    letter-spacing: 2px; /* Ajusta este valor según lo necesites */
+    
+} 
+
+.text4 {
+    font-family: "Gulfs Display", sans-serif;
+    color: rgb(231, 255, 98);
+    position: absolute;
+    z-index: 9;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 80px;
+    -webkit-text-stroke: 3px #0061ff;
+    letter-spacing: 2px; /* Ajusta este valor según lo necesites */
+} 
+
+.p1 {
+    font-family: "Anybody", sans-serif;
+    position: absolute;
+    margin-top: 256px;
+    margin-left: 45px;
+    font-size: 19px;
+    font-weight: 600;
+    width: calc(434px - 150px);
+    text-align: left;
+    line-height: 1.1;
+    
+}
+
+
+.p2 {
+    font-family: "Gulfs Display", sans-serif;
+    position: absolute;
+    margin-top: 550px;
+    margin-left: -332px;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.anillos {
+    position: absolute;
+    margin-top: 528px;
+    margin-left: -184px;
+    width: 70px;
+    height: 70px;
+    
+
+}
+
+.estre {
+    position: absolute;
+    margin-top: 528px;
+    margin-left: -127px;
+    width: 70px;
+    height: 70px;
+}
+
+
+.caja3 {
+    outline: 1px solid black;
+    width: 80%;
+    height: 331px;
+    margin-top: 647px;
+    margin-left: -347px;
+    background-color: rgb(250, 180, 227);
+    transform: rotate(356deg); /* Rota 45 grados */
+}
+
+.caja4 {
+    outline: 1px solid black;
+    width: 80%;
+    height: 331px;
+    margin-top: 639px;
+    margin-left: -289px;
+    background-color: rgb(250, 180, 227);
+    transform: rotate(356deg); /* Rota 45 grados */
+}
+
+.caja5 {
+    
+    box-sizing: border-box;
+    outline: 1px solid black;
+    width: 80%;
+    height: 331px;
+    margin-top: 629px;
+    margin-left: -288px;
+    background-color: white;
+    transform: rotate(356deg); /* Rota 45 grados */
+    padding: 10px 10px;
+}
+    
+
+.img3 {
+    width: 100%;
+    height: 100%;  
+}
+
+
+/*----------------------- seccion galeria ---------------------*/
+
+
+.seccion-galeria {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    outline: 1px solid green;
+    height: 800px;
+    z-index: 0;
+    
+}
+
+
+
+
+.img4 {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 203px;
+    height: 260px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
+.img5 {
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 40px;
+    width: 296px;
+    height: 260px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
+.img6 {
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 320px;
+    width: 203px;
+    height: 260px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
+.img7 {
+    position: absolute;
+    margin-left: 272px;
+    margin-top: 320px;
+    width: 290px;
+    height: 260px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
+.img8 {
+    position: absolute;
+    margin-left: -228px;
+    margin-top: 320px;
+    width: 270px;
+    height: 260px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
+/*-----------------------------------max-width: 1500px--------------------------------------------------*/
+
+/*-----------------------------------max-width: 768px--------------------------------------------------*/
+
+@media (max-width: 768px) {
+body {
+    display:flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    position: relative;
+}
+
+.global {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    
+}
+
+[class="caja"] {
+    position: absolute;
+    
+}
+
+.sesion-inicio {
+    position: relative;
+    outline: 1px solid red;
+    width: 100%;
+    height: 140vw;
+}
+
+.caja1 {
+    position: absolute;
+    outline: 2px solid black;
+    background-color: rgb(236, 138, 203);
+    height: 85vw;
+    width: 100vw;
+    z-index: 1;
+}
+
+.img1 {
+    margin-left: 78vw;
+    width: 10vw;
+    position: absolute;
+    z-index: 4;
+
+}
+
+  
+.img2 {
+    width: 58vw;
+    height: 80vw;
+    border-radius: 27vw;
+    outline: 2px solid black;
+    z-index: 2;
+    top: 43vw;
+    right: 22vw;
+}
+
+.img3 {
+   display: none;
+}
+
+.img4 {
+    display: none;
+}
+
+}
+
+.estrella {
+    margin-left: 4%;
+    margin-top: -14%;
+    width: 13%;
+    height: 16%;
+    position: absolute;
+    z-index: 3;
+    
+}
+
+.estrella1 {
+    margin-left: 82vw;
+    margin-top: 61vw;
+    width: 7vw;
+    height: 6vw;
+    position: absolute;
+    z-index: 9999;
+    border: 1px solid red;
+}
+
+.estrella2 {
+    margin-left: 13vw;
+    margin-top: 30vw;
+    width: 10vw;
+    height: 5vw;
+    position: absolute;
+    z-index: 6;
+}
+
+.logo {
+    margin-left: 13vw;
+    margin-top: 105vw;
+    width: 21vw;
+    height: auto;
+    position: absolute;
+    z-index: 7;
+}
+        
+
+
+.circulo {
+    margin-left: 80vw;
+    margin-top: 2vw;
+    width: 12vw;
+    height: 12vw;
+    position: absolute;
+    z-index: 8;
+    border-radius: 10vw;
+}
+
+
+.menu {
+    align-items: center;
+    width: 10vw;
+}
+
+.caja2 {
+    
+    background-color: rgb(231, 255, 98);
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    z-index: 0;
+}
+
+.text {
+    font-family: "Gulfs Display", sans-serif;
+    color: blue;
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 19vw;
+} 
+
+
+ 
+
+
+
+
+
+/* -----------------------seccion nosotros -------------------------*/
+
+.seccion-nosotros {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(231, 255, 98);
+    outline: 1px solid blue;
+    height: auto;
+    z-index: 0;
+    padding-top: 70%;
+}
+
+.lunas {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    
+}
+
+.medialuna {
+    margin-left: 2vw;
+    position: absolute;
+    width: 7%;
+}
+
+.medialuna1 {
+    margin-left: 87vw;
+    position: absolute;
+    width: 7%;
+}
+
+.texto-nosotros {
+    font-family: "Gulfs Display", sans-serif;
+    color: rgb(231, 255, 98);
+    -webkit-text-stroke: 4px #0061ff;
+    position: absolute;
+    z-index: 9;
+    margin-top: 13%;
+    margin-left: 8%;
+    font-size: 17vw;
+    letter-spacing: 1px;
+    line-height: 0.8;
+} 
+
+
+.p1 {
+    font-family: "Anybody", sans-serif;
+    position: absolute;
+    margin-top: 21vw;
+    margin-left: 4vw;
+    font-size: 3.6vw;
+    font-weight: 600;
+    width: calc(430px - -15px);
+    text-align: left;
+    line-height: 1.1;
+    
+}
+
+.tus {
+    font-family: "Anybody", sans-serif;
+    position: absolute;
+    margin-top: 76%;
+    margin-left: 7%;
+    font-size: 1.1vw;
+    font-weight: 600;
+    width: calc(434px - 150px);
+    text-align: left;
+    line-height: 1;
+}
+
+
+.p2 {
+    font-family: "Gulfs Display", sans-serif;
+    position: absolute;
+    margin-top: 550px;
+    margin-left: -332px;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.anillos {
+    position: absolute;
+    margin-top: 528px;
+    margin-left: -184px;
+    width: 70px;
+    height: 70px;
+    
+
+}
+
+.estre {
+    position: absolute;
+    margin-top: 528px;
+    margin-left: -127px;
+    width: 70px;
+    height: 70px;
+}
+
+
+
+/*----------------------------------- seccion galeria ---------------------------*/
+
+
+.seccion-galeria {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    outline: 1px solid green;
+    height: 148vw;
+    z-index: 0;
+    top: 153vw;
+    left: -1vw;
+    
+}
+
+
+
+
+.img4 {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 40vw;
+    height: 390px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
+.img5 {
+    position: absolute;
+    margin-left: 42vw;
+    margin-top: 1vw;
+    width: 107vw;
+    height: 58vw;
+    border-radius: 5vw;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
+.img6 {
+   position: absolute;
+    margin-left: 13%;
+    margin-top: 63%;
+    width: 47vw;
+    height: 390px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
+.img7 {
+    position: absolute;
+    margin-left: 62vw;
+    margin-top: 61vw;
+    width: 95vw;
+    height: 60vw;
+    border-radius: 4vw;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
+.img8 {
+    position: absolute;
+    margin-left: -228px;
+    margin-top: 63%;
+    width: 270px;
+    height: 390px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+
+
