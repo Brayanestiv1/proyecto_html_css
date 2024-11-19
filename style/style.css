@@ -443,6 +443,13 @@ body {
     height: 140vw;
 }
 
+.menu {
+    position: absolute;
+    width: 10vw;
+    left: 1vw;
+    top: 0.7vw;
+}
+
 .caja1 {
     position: absolute;
     outline: 2px solid black;
@@ -520,9 +527,17 @@ body {
 }
         
 
+.linea {
+    margin-left: 75vw;
+    margin-top: 50vw;
+    width: 12vw;
+    height: 5vw;
+    position: absolute;
+    z-index: 8;
+}
 
 .circulo {
-    margin-left: 80vw;
+    margin-left: 82vw;
     margin-top: 2vw;
     width: 12vw;
     height: 12vw;
@@ -532,10 +547,6 @@ body {
 }
 
 
-.menu {
-    align-items: center;
-    width: 10vw;
-}
 
 .caja2 {
     
