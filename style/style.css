@@ -858,3 +858,385 @@ body, html, main {
     }
 
     
+
+    @media only screen and (min-width: 360px) {
+        /* Ajustes globales */
+        body, html, main, .global {
+            width: 100%;
+            height: auto;
+        }
+    
+        /* Chat */
+        .chat {
+            width: 95px; /* 12.5% más grande */
+            height: 95px;
+            margin-left: 260px; /* Ajustado para centrar mejor */
+            margin-top: 500px;
+        }
+    
+        .textchat {
+            font-size: 20px; /* Ligeramente más grande */
+            margin-top: 35px;
+        }
+    
+        /* Sección Inicio */
+        .sesion-inicio {
+            height: 780px; /* Más espacio vertical */
+        }
+    
+        .menu {
+            width: 95px;
+            margin-left: 280px;
+            margin-top: 12px;
+        }
+    
+        .text {
+            font-size: 36px; /* Aumentado proporcionalmente */
+            margin-top: 210px;
+            margin-left: 40px;
+        }
+    
+        .img2 {
+            width: 270px; /* Más grande para aprovechar el ancho */
+            height: 400px;
+            margin-top: 300px;
+            margin-left: 60px;
+        }
+    
+        .estrella1 {
+            margin-left: 340px;
+            margin-top: 380px;
+            width: 8vw;
+            height: 7vw;
+        }
+    
+        .estrella2 {
+            margin-left: 30px;
+            margin-top: 250px;
+            width: 11vw;
+            height: 7vw;
+        }
+    
+        .estrella3 {
+            margin-left: 5vw;
+            margin-top: 340px;
+            width: 14vw;
+            height: 10vw;
+        }
+    
+        .logo {
+            margin-left: 12vw;
+            margin-top: 620px;
+            width: 32vw;
+        }
+    
+        .linea {
+            margin-left: 310px;
+            margin-top: 310px;
+            width: 55px;
+            height: 55px;
+        }
+    
+        /* Sección Nosotros */
+        .seccion-nosotros {
+            height: 880px;
+        }
+    
+        .lunas {
+            width: 320px;
+            padding: 12px;
+        }
+    
+        .medialuna, .medialuna1 {
+            width: 35px;
+        }
+    
+        .texto-nosotros {
+            font-size: 78px; /* Más grande */
+            margin-top: 60px;
+            margin-left: 50px;
+        }
+    
+        .p1 {
+            font-size: 16px;
+            margin-top: 120px;
+            margin-left: 20px;
+            width: 300px;
+        }
+    
+        .tus {
+            font-size: 7px;
+            margin-top: 460px;
+            margin-left: 40px;
+            width: 300px;
+        }
+    
+        .anillos {
+            margin-top: 420px;
+            margin-left: 180px;
+            width: 80px;
+            height: 80px;
+        }
+    
+        .estre {
+            margin-top: 420px;
+            margin-left: 250px;
+            width: 80px;
+            height: 80px;
+        }
+    
+        .img3 {
+            width: 340px;
+            height: 330px;
+            margin-top: 500px;
+            margin-left: 15px;
+        }
+    
+        /* Sección Galería */
+        .seccion-galeria {
+            height: 420px;
+        }
+    
+        .grid {
+            grid-template-columns: 160px 310px;
+            gap: 8px;
+            margin-top: 25px;
+        }
+    
+        .grid2 {
+            grid-template-columns: repeat(3, 160px);
+            gap: 8px;
+            margin-top: 25px;
+            margin-left: -90px;
+        }
+    
+        .item {
+            height: 180px;
+        }
+    
+        /* Sección Precios */
+        .seccion-precios {
+            height: 1400px;
+        }
+    
+        .grid3 {
+            grid-template-rows: repeat(2, 160px) repeat(2, 320px) 340px 130px;
+        }
+    
+        .anillosprecio {
+            width: 130px;
+            margin-top: 550px;
+            margin-left: 100px;
+        }
+    
+        .camara {
+            width: 120px;
+            margin-top: 1200px;
+            margin-left: 220px;
+        }
+    
+        .text_div1 {
+            font-size: 36px;
+            margin-top: 30px;
+            margin-left: 60px;
+        }
+    
+        .text_div2 {
+            font-size: 22px;
+            margin-top: 35px;
+            margin-left: 30px;
+        }
+    
+        .signoBlue {
+            width: 20px;
+            height: 20px;
+            margin-top: 35px;
+            margin-left: 250px;
+        }
+    
+        .tres {
+            width: 20px;
+            height: 20px;
+            margin-top: 32px;
+            margin-left: 330px;
+        }
+    
+        .disco {
+            margin-top: 25px;
+            margin-left: 25px;
+            height: 65px;
+        }
+    
+        .text_div3, .text_div3NO {
+            font-size: 19px;
+            margin-left: 5px;
+        }
+    
+        .signoOrange {
+            width: 20px;
+            height: 20px;
+            margin-top: 70px;
+            margin-left: 160px;
+        }
+    
+        .botondiv3 {
+            margin-top: 110px;
+            margin-left: 25px;
+            height: 90px;
+        }
+    
+        .text_div4, .text_div4NO {
+            font-size: 19px;
+            margin-left: 15px;
+        }
+    
+        .signodiv4 {
+            width: 20px;
+            height: 20px;
+            margin-top: 70px;
+            margin-left: 160px;
+        }
+    
+        .botondiv4 {
+            margin-top: 110px;
+            margin-left: 25px;
+            height: 90px;
+        }
+    
+        .text_div5, .text2_div5 {
+            font-size: 22px;
+            margin-left: 25px;
+        }
+    
+        .signodiv5, .signo2div5 {
+            width: 20px;
+            height: 20px;
+            margin-left: 140px;
+        }
+    
+        .ruletadiv5 {
+            margin-top: 110px;
+            margin-left: 50px;
+            height: 90px;
+        }
+    
+        .text_div6, .text2_div6 {
+            font-size: 21px;
+            margin-left: 20px;
+        }
+    
+        .signodiv6 {
+            width: 20px;
+            height: 20px;
+            margin-left: 135px;
+        }
+    
+        .barradiv6 {
+            margin-top: 130px;
+            margin-left: 10px;
+            height: 80px;
+        }
+    
+        .text_div7 {
+            font-size: 19px;
+            margin-left: 20px;
+        }
+    
+        .text2_div7 {
+            font-size: 14px;
+            margin-left: 190px;
+        }
+    
+        .signodiv7 {
+            width: 20px;
+            height: 20px;
+            margin-left: 100px;
+        }
+    
+        .mapa {
+            width: 350px;
+            margin-top: 70px;
+            margin-left: 10px;
+        }
+    
+        .text_div8 {
+            font-size: 16px;
+            margin-left: 50px;
+        }
+    
+        .text2_div8 {
+            font-size: 38px;
+            margin-left: 50px;
+        }
+    
+        /* Sección Contactos */
+        .seccion-contactos {
+            height: 900px;
+        }
+    
+        .esposos {
+            width: 350px;
+            margin-top: 25px;
+            margin-left: 15px;
+        }
+    
+        .textContactos {
+            font-size: 42px;
+            margin-top: 390px;
+            margin-left: 35px;
+        }
+    
+        .text2Contactos {
+            font-size: 15px;
+            margin-top: 480px;
+            margin-left: 30px;
+        }
+    
+        .fechaContactos {
+            font-size: 19px;
+            margin-top: 560px;
+            margin-left: 35px;
+        }
+    
+        .flechaIzquierda {
+            width: 28px;
+            margin-top: 555px;
+            margin-left: 240px;
+        }
+    
+        .flechaDerecha {
+            width: 60px;
+            margin-top: 540px;
+            margin-left: 280px;
+        }
+    
+        .lineaContactos {
+            width: 310px;
+            margin-top: 610px;
+            margin-left: 35px;
+        }
+    
+        .grid4 {
+            margin-top: 35px;
+            grid-template-rows: 90px 60px;
+        }
+    
+        .text3Contactos {
+            font-size: 11px;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+    
+        .text4Contactos {
+            font-size: 12px;
+            margin-top: 20px;
+            margin-left: 8px;
+        }
+    
+        .face, .inst, .twi {
+            width: 40px;
+            height: 40px;
+            margin-top: 8px;
+            margin-left: 10px;
+        }
+    }
